@@ -1,0 +1,134 @@
+[
+  {
+    "id": "c1",
+    "name": "Paris",
+    "country": "France",
+    "continent": "Europe",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+    "popularity": 98,
+    "costIndex": "$$$",
+    "description": "The City of Light, known for the Eiffel Tower, world-class cuisine, and iconic art museums.",
+    "tags": ["romantic", "culture", "food", "art"]
+  },
+  {
+    "id": "c2",
+    "name": "Tokyo",
+    "country": "Japan",
+    "continent": "Asia",
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
+    "popularity": 95,
+    "costIndex": "$$$",
+    "description": "A dazzling blend of ultra-modern and traditional, with neon-lit streets and serene temples.",
+    "tags": ["tech", "culture", "food", "temples"]
+  },
+  {
+    "id": "c3",
+    "name": "Bali",
+    "country": "Indonesia",
+    "continent": "Asia",
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80",
+    "popularity": 92,
+    "costIndex": "$$",
+    "description": "A tropical paradise with lush rice terraces, ancient temples, and a thriving wellness scene.",
+    "tags": ["beach", "wellness", "nature", "spiritual"]
+  },
+  {
+    "id": "c4",
+    "name": "New York City",
+    "country": "USA",
+    "continent": "North America",
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80",
+    "popularity": 99,
+    "costIndex": "$$$$",
+    "description": "The city that never sleeps — iconic skyline, Broadway shows, and incredible diversity.",
+    "tags": ["urban", "culture", "shopping", "nightlife"]
+  },
+  {
+    "id": "c5",
+    "name": "Rome",
+    "country": "Italy",
+    "continent": "Europe",
+    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+    "popularity": 96,
+    "costIndex": "$$$",
+    "description": "The Eternal City where ancient history meets vibrant modern life at every cobblestone turn.",
+    "tags": ["history", "food", "art", "romantic"]
+  },
+  {
+    "id": "c6",
+    "name": "Dubai",
+    "country": "UAE",
+    "continent": "Asia",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80",
+    "popularity": 94,
+    "costIndex": "$$$$",
+    "description": "A city of superlatives — tallest buildings, biggest malls, and world-class luxury experiences.",
+    "tags": ["luxury", "shopping", "modern", "desert"]
+  },
+  {
+    "id": "c7",
+    "name": "Barcelona",
+    "country": "Spain",
+    "continent": "Europe",
+    "image": "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800&q=80",
+    "popularity": 93,
+    "costIndex": "$$",
+    "description": "Gaudí's architectural wonders meet sun-drenched beaches and a buzzing tapas scene.",
+    "tags": ["art", "beach", "food", "nightlife"]
+  },
+  {
+    "id": "c8",
+    "name": "Santorini",
+    "country": "Greece",
+    "continent": "Europe",
+    "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800&q=80",
+    "popularity": 91,
+    "costIndex": "$$$",
+    "description": "Iconic white-washed buildings and blue domes perched dramatically above a volcanic caldera.",
+    "tags": ["romantic", "scenic", "beach", "sunset"]
+  },
+  {
+    "id": "c9",
+    "name": "Kyoto",
+    "country": "Japan",
+    "continent": "Asia",
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80",
+    "popularity": 90,
+    "costIndex": "$$$",
+    "description": "Japan's ancient capital with over 1,600 Buddhist temples, traditional tea houses, and geisha culture.",
+    "tags": ["temples", "culture", "nature", "traditional"]
+  },
+  {
+    "id": "c10",
+    "name": "Cape Town",
+    "country": "South Africa",
+    "continent": "Africa",
+    "image": "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80",
+    "popularity": 89,
+    "costIndex": "$$",
+    "description": "Stunning natural scenery with Table Mountain, pristine beaches, and vibrant culture.",
+    "tags": ["nature", "adventure", "beach", "scenic"]
+  },
+  {
+    "id": "c11",
+    "name": "Maldives",
+    "country": "Maldives",
+    "continent": "Asia",
+    "image": "https://images.unsplash.com/photo-1540202404-b2b3cf6b110e?w=800&q=80",
+    "popularity": 88,
+    "costIndex": "$$$$",
+    "description": "Crystal-clear lagoons, overwater bungalows, and some of the world's best snorkeling and diving.",
+    "tags": ["luxury", "beach", "diving", "romantic"]
+  },
+  {
+    "id": "c12",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "continent": "Europe",
+    "image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800&q=80",
+    "popularity": 87,
+    "costIndex": "$$$",
+    "description": "A city of canals, world-class museums, cycling culture, and vibrant creative energy.",
+    "tags": ["culture", "cycling", "art", "canals"]
+  }
+]

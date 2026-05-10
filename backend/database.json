@@ -1,0 +1,463 @@
+{
+  "users": [
+    {
+      "_id": "cauuu8rs9",
+      "createdAt": "2026-05-10T07:02:43.005Z",
+      "name": "Odoo Reviewer",
+      "email": "demo@travelloop.com",
+      "password": "$2a$10$Bwi4ulv13Kq9MsAS3J2VPe.NG0lQW00IjVmRBRRQn8LPiuWiuQog2"
+    },
+    {
+      "_id": "kz4lnoocu",
+      "createdAt": "2026-05-10T07:07:04.330Z",
+      "name": "Odoo Reviewer",
+      "email": "demo@travelloop.com",
+      "password": "$2a$10$8yD68kczl1cpuBgRGYl9tOaD8zYUTJM6g4aLEozDhGjHsn7ncCKUO"
+    },
+    {
+      "_id": "6a7te8scn",
+      "createdAt": "2026-05-10T08:24:19.358Z",
+      "name": "sanika zade",
+      "email": "zadesanika25@gmail.com",
+      "password": "$2a$10$plvcmfDmAm1wJJJaRu3qmO/LKRpPV6H6aMwWtt1Ku0o6kc02zFhfq"
+    },
+    {
+      "_id": "agruxsz3r",
+      "createdAt": "2026-05-10T08:31:11.027Z",
+      "name": "ADMIN",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$oyfX54RjJBdjJYYyWc12TuGdKTeKhQPaCGD4AnzQ7.VFmz7p1AIoO"
+    },
+    {
+      "_id": "5j3anpp84",
+      "createdAt": "2026-05-10T08:41:06.395Z",
+      "name": "alex",
+      "email": "alex@gmail.com",
+      "password": "$2a$10$tmqZ7MI0jUgACM2KLukgyuZwwAaB9Gb.0KveDrRLafm5saZGfeMX6"
+    }
+  ],
+  "trips": [
+    {
+      "_id": "xelz2l5uc",
+      "createdAt": "2026-05-10T07:02:43.081Z",
+      "owner": "cauuu8rs9",
+      "title": "Grand Europe Tour 2026",
+      "destination": "Europe",
+      "startDate": "2026-06-09T07:02:43.059Z",
+      "endDate": "2026-06-19T07:02:43.059Z",
+      "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+      "isPublic": true,
+      "totalBudget": 5000
+    },
+    {
+      "_id": "ki7bo6euj",
+      "createdAt": "2026-05-10T07:07:04.349Z",
+      "owner": "kz4lnoocu",
+      "title": "Grand Europe Tour 2026",
+      "destination": "Europe",
+      "startDate": "2026-06-09T07:07:04.334Z",
+      "endDate": "2026-06-19T07:07:04.334Z",
+      "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+      "isPublic": true,
+      "totalBudget": 5000
+    },
+    {
+      "_id": "28vbz88wz",
+      "createdAt": "2026-05-10T08:25:48.205Z",
+      "title": "bharat",
+      "destination": "india",
+      "startDate": "2026-05-10",
+      "endDate": "2026-05-24",
+      "coverImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80",
+      "owner": "6a7te8scn"
+    },
+    {
+      "_id": "wi2nco0ed",
+      "createdAt": "2026-05-10T08:41:42.440Z",
+      "title": "italy ",
+      "destination": "iceburg",
+      "startDate": "2026-05-24",
+      "endDate": "2026-06-15",
+      "coverImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80",
+      "owner": "5j3anpp84"
+    },
+    {
+      "_id": "3uvzdzgew",
+      "createdAt": "2026-05-10T08:46:49.377Z",
+      "title": "japan",
+      "destination": "france",
+      "startDate": "2026-05-10",
+      "endDate": "2026-06-15",
+      "coverImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+      "owner": "agruxsz3r"
+    }
+  ],
+  "itineraries": [
+    {
+      "_id": "cgd4yq6i8",
+      "createdAt": "2026-05-10T07:02:43.110Z",
+      "tripId": "xelz2l5uc",
+      "stops": [
+        {
+          "id": "stop-1",
+          "city": "Paris",
+          "country": "France",
+          "activities": [
+            {
+              "id": "a1",
+              "title": "Eiffel Tower Summit",
+              "cost": 30,
+              "duration": "2h",
+              "type": "Sightseeing"
+            },
+            {
+              "id": "a2",
+              "title": "Louvre Museum",
+              "cost": 25,
+              "duration": "3h",
+              "type": "Culture"
+            }
+          ]
+        },
+        {
+          "id": "stop-2",
+          "city": "Rome",
+          "country": "Italy",
+          "activities": [
+            {
+              "id": "a3",
+              "title": "Colosseum Tour",
+              "cost": 20,
+              "duration": "3h",
+              "type": "History"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "key109j6o",
+      "createdAt": "2026-05-10T07:07:04.370Z",
+      "tripId": "ki7bo6euj",
+      "stops": [
+        {
+          "id": "stop-1",
+          "city": "Paris",
+          "country": "France",
+          "activities": [
+            {
+              "id": "a1",
+              "title": "Eiffel Tower Summit",
+              "cost": 30,
+              "duration": "2h",
+              "type": "Sightseeing"
+            },
+            {
+              "id": "a2",
+              "title": "Louvre Museum",
+              "cost": 25,
+              "duration": "3h",
+              "type": "Culture"
+            }
+          ]
+        },
+        {
+          "id": "stop-2",
+          "city": "Rome",
+          "country": "Italy",
+          "activities": [
+            {
+              "id": "a3",
+              "title": "Colosseum Tour",
+              "cost": 20,
+              "duration": "3h",
+              "type": "History"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "budgets": [
+    {
+      "_id": "1ta9gsctz",
+      "createdAt": "2026-05-10T08:26:15.479Z",
+      "tripId": "28vbz88wz",
+      "totalBudget": 50000,
+      "expenses": [
+        {
+          "category": "Food",
+          "amount": 50,
+          "description": "india",
+          "date": "2026-05-10T08:26:40.900Z",
+          "_id": "bvhp57uq1"
+        },
+        {
+          "category": "Other",
+          "amount": 52,
+          "description": "cloths",
+          "date": "2026-05-10T08:29:54.274Z",
+          "_id": "4wqibghww"
+        },
+        {
+          "category": "Accommodation",
+          "amount": 8000,
+          "description": "",
+          "date": "2026-05-10T08:48:04.113Z",
+          "_id": "6sgucbwaz"
+        },
+        {
+          "category": "Activities",
+          "amount": 1000,
+          "description": "",
+          "date": "2026-05-10T08:48:13.905Z",
+          "_id": "aiz1owyn7"
+        },
+        {
+          "category": "Other",
+          "amount": 5000,
+          "description": "visit",
+          "date": "2026-05-10T08:48:37.940Z",
+          "_id": "byv2n4326"
+        },
+        {
+          "category": "Food",
+          "amount": 15000,
+          "description": "clothing",
+          "date": "2026-05-10T08:48:52.779Z",
+          "_id": "ndvsy72nn"
+        },
+        {
+          "category": "Food",
+          "amount": 2000,
+          "description": "",
+          "date": "2026-05-10T08:49:09.267Z",
+          "_id": "1slhtmp46"
+        },
+        {
+          "category": "Activities",
+          "amount": 5000,
+          "description": "",
+          "date": "2026-05-10T08:49:33.195Z",
+          "_id": "ow3rolfc6"
+        }
+      ],
+      "updatedAt": "2026-05-10T08:49:33.213Z"
+    },
+    {
+      "_id": "ljyexy8xz",
+      "createdAt": "2026-05-10T08:32:51.296Z",
+      "tripId": "bxjzjg33t",
+      "totalBudget": 2000,
+      "expenses": [
+        {
+          "category": "Food",
+          "amount": 200,
+          "description": "",
+          "date": "2026-05-10T08:33:17.335Z",
+          "_id": "9e8cpr2ge"
+        },
+        {
+          "category": "Transport",
+          "amount": 500,
+          "description": "",
+          "date": "2026-05-10T08:33:22.326Z",
+          "_id": "spfn7w1d6"
+        },
+        {
+          "category": "Accommodation",
+          "amount": 200,
+          "description": "",
+          "date": "2026-05-10T08:33:29.454Z",
+          "_id": "f4a2yvnsw"
+        },
+        {
+          "category": "Other",
+          "amount": 260,
+          "description": "visit",
+          "date": "2026-05-10T08:33:54.329Z",
+          "_id": "yp04606y1"
+        }
+      ],
+      "updatedAt": "2026-05-10T08:33:54.352Z"
+    },
+    {
+      "_id": "nufyl2y82",
+      "createdAt": "2026-05-10T08:35:58.440Z",
+      "tripId": "i1vl60tc5",
+      "totalBudget": 5000,
+      "expenses": [
+        {
+          "category": "Food",
+          "amount": 200,
+          "description": "",
+          "date": "2026-05-10T08:36:50.427Z",
+          "_id": "t3ylgxxym"
+        },
+        {
+          "category": "Transport",
+          "amount": 1000,
+          "description": "",
+          "date": "2026-05-10T08:36:56.115Z",
+          "_id": "uysdsf31r"
+        }
+      ],
+      "updatedAt": "2026-05-10T08:36:56.136Z"
+    },
+    {
+      "_id": "hngim73ra",
+      "createdAt": "2026-05-10T08:41:57.619Z",
+      "tripId": "wi2nco0ed",
+      "totalBudget": 10000,
+      "expenses": [
+        {
+          "category": "Food",
+          "amount": 500,
+          "description": "",
+          "date": "2026-05-10T08:42:18.497Z",
+          "_id": "exkodiv7w"
+        },
+        {
+          "category": "Transport",
+          "amount": 1000,
+          "description": "",
+          "date": "2026-05-10T08:42:27.418Z",
+          "_id": "kjhon14a1"
+        },
+        {
+          "category": "Accommodation",
+          "amount": 500,
+          "description": "",
+          "date": "2026-05-10T08:42:50.884Z",
+          "_id": "x6kkcr2ml"
+        },
+        {
+          "category": "Activities",
+          "amount": 1000,
+          "description": "",
+          "date": "2026-05-10T08:43:01.466Z",
+          "_id": "8ag6pdacc"
+        }
+      ],
+      "updatedAt": "2026-05-10T08:43:01.490Z"
+    },
+    {
+      "_id": "u9bpjpjph",
+      "createdAt": "2026-05-10T08:46:54.466Z",
+      "tripId": "3uvzdzgew",
+      "totalBudget": 20000,
+      "expenses": [],
+      "updatedAt": "2026-05-10T08:47:04.820Z"
+    }
+  ],
+  "packingLists": [
+    {
+      "_id": "l2wegs9zp",
+      "createdAt": "2026-05-10T08:29:14.111Z",
+      "tripId": "28vbz88wz",
+      "categories": [
+        {
+          "category": "Essentials",
+          "items": [
+            {
+              "name": "bag",
+              "isPacked": false
+            }
+          ]
+        },
+        {
+          "category": "Clothing",
+          "items": []
+        },
+        {
+          "category": "Toiletries",
+          "items": []
+        },
+        {
+          "category": "Electronics",
+          "items": []
+        }
+      ],
+      "updatedAt": "2026-05-10T08:50:12.610Z"
+    },
+    {
+      "_id": "nvtfx4m15",
+      "createdAt": "2026-05-10T08:35:58.856Z",
+      "tripId": "i1vl60tc5",
+      "categories": [
+        {
+          "category": "Essentials",
+          "items": [
+            {
+              "name": "bag",
+              "isPacked": true
+            }
+          ]
+        },
+        {
+          "category": "Clothing",
+          "items": [
+            {
+              "name": "pajamas",
+              "isPacked": true
+            }
+          ]
+        },
+        {
+          "category": "Toiletries",
+          "items": []
+        },
+        {
+          "category": "Electronics",
+          "items": []
+        }
+      ],
+      "updatedAt": "2026-05-10T08:36:21.678Z"
+    },
+    {
+      "_id": "79fg45kn5",
+      "createdAt": "2026-05-10T08:43:09.176Z",
+      "tripId": "wi2nco0ed",
+      "categories": [
+        {
+          "category": "Essentials",
+          "items": [
+            {
+              "name": "bag",
+              "isPacked": false
+            }
+          ]
+        },
+        {
+          "category": "Clothing",
+          "items": []
+        },
+        {
+          "category": "Toiletries",
+          "items": []
+        },
+        {
+          "category": "Electronics",
+          "items": []
+        }
+      ],
+      "updatedAt": "2026-05-10T08:43:51.971Z"
+    }
+  ],
+  "notes": [
+    {
+      "_id": "a86k1exag",
+      "createdAt": "2026-05-10T08:36:37.678Z",
+      "title": "to visit",
+      "content": "ganpanti mandir",
+      "tripId": "i1vl60tc5"
+    },
+    {
+      "_id": "y8qix7dzs",
+      "createdAt": "2026-05-10T08:44:11.050Z",
+      "title": "hi",
+      "content": "hello",
+      "tripId": "wi2nco0ed"
+    }
+  ]
+}

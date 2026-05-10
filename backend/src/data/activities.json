@@ -1,0 +1,45 @@
+[
+  { "id": "a1",  "cityId": "c1",  "title": "Eiffel Tower Summit",          "description": "Skip-the-line access to the summit of the Eiffel Tower with panoramic views.", "cost": 30,  "duration": "2h",   "type": "Sightseeing" },
+  { "id": "a2",  "cityId": "c1",  "title": "Louvre Museum Tour",            "description": "Guided tour of the world's largest art museum, home to the Mona Lisa.",       "cost": 25,  "duration": "3h",   "type": "Culture"     },
+  { "id": "a3",  "cityId": "c1",  "title": "Seine River Cruise",            "description": "A romantic 1-hour boat cruise along the Seine past Notre-Dame.",               "cost": 18,  "duration": "1h",   "type": "Leisure"     },
+  { "id": "a4",  "cityId": "c1",  "title": "Montmartre & Sacré-Cœur",       "description": "Explore the bohemian hilltop neighborhood and the stunning Sacré-Cœur.",     "cost": 0,   "duration": "2.5h", "type": "Culture"     },
+
+  { "id": "a5",  "cityId": "c2",  "title": "Tsukiji Market Food Tour",      "description": "Taste amazing sushi, tamagoyaki, and street food at Tokyo's famous market.",  "cost": 45,  "duration": "2.5h", "type": "Food"        },
+  { "id": "a6",  "cityId": "c2",  "title": "Shinjuku Night Walk",           "description": "Explore the neon-lit streets, izakayas, and entertainment of Shinjuku.",      "cost": 0,   "duration": "3h",   "type": "Nightlife"   },
+  { "id": "a7",  "cityId": "c2",  "title": "Meiji Shrine & Harajuku",       "description": "Visit the serene Meiji Shrine and explore Harajuku's quirky Takeshita Street.","cost": 0,   "duration": "2h",   "type": "Culture"     },
+  { "id": "a8",  "cityId": "c2",  "title": "teamLab Borderless",            "description": "Immersive digital art museum — a world-first interactive experience.",         "cost": 32,  "duration": "2h",   "type": "Art"         },
+
+  { "id": "a9",  "cityId": "c3",  "title": "Ubud Monkey Forest Walk",       "description": "Stroll through a sacred jungle sanctuary home to hundreds of macaques.",      "cost": 10,  "duration": "1.5h", "type": "Adventure"   },
+  { "id": "a10", "cityId": "c3",  "title": "Rice Terrace Trek",             "description": "Hike through stunning UNESCO-listed Tegalalang rice terraces at sunrise.",    "cost": 5,   "duration": "3h",   "type": "Nature"      },
+  { "id": "a11", "cityId": "c3",  "title": "Uluwatu Sunset & Kecak Dance",  "description": "Watch a traditional Kecak fire dance at a clifftop temple above the ocean.", "cost": 15,  "duration": "2h",   "type": "Culture"     },
+  { "id": "a12", "cityId": "c3",  "title": "Cooking Class",                 "description": "Learn to prepare classic Balinese dishes with fresh market ingredients.",     "cost": 35,  "duration": "4h",   "type": "Food"        },
+
+  { "id": "a13", "cityId": "c4",  "title": "Statue of Liberty Tour",        "description": "Ferry to Liberty Island and climb to the crown of Lady Liberty.",            "cost": 24,  "duration": "3h",   "type": "Sightseeing" },
+  { "id": "a14", "cityId": "c4",  "title": "Central Park Bike Ride",        "description": "Rent a bike and explore 840 acres of NYC's beloved green oasis.",            "cost": 15,  "duration": "2h",   "type": "Leisure"     },
+  { "id": "a15", "cityId": "c4",  "title": "Broadway Show",                 "description": "Experience a world-famous Broadway musical in the Theater District.",        "cost": 120, "duration": "3h",   "type": "Culture"     },
+
+  { "id": "a16", "cityId": "c5",  "title": "Colosseum & Roman Forum",       "description": "Explore the iconic Colosseum and the ancient heart of the Roman Empire.",    "cost": 20,  "duration": "3h",   "type": "History"     },
+  { "id": "a17", "cityId": "c5",  "title": "Vatican Museums & Sistine Chapel","description": "Marvel at Michelangelo's masterpiece ceiling in Vatican City.",           "cost": 27,  "duration": "3h",   "type": "Art"         },
+  { "id": "a18", "cityId": "c5",  "title": "Trastevere Food Walk",          "description": "Taste handmade pasta, supplì, and gelato in Rome's most charming district.", "cost": 40,  "duration": "2.5h", "type": "Food"        },
+
+  { "id": "a19", "cityId": "c6",  "title": "Burj Khalifa Observation Deck", "description": "Ascend to level 148 for the world's highest outdoor observation deck.",   "cost": 35,  "duration": "1.5h", "type": "Sightseeing" },
+  { "id": "a20", "cityId": "c6",  "title": "Desert Safari & BBQ",           "description": "Dune bashing, camel rides, and a traditional Bedouin dinner under the stars.","cost": 85, "duration": "6h",   "type": "Adventure"   },
+
+  { "id": "a21", "cityId": "c7",  "title": "Sagrada Família Visit",         "description": "Tour Gaudí's extraordinary, still-unfinished basilica — a UNESCO treasure.", "cost": 26,  "duration": "2h",   "type": "Architecture"},
+  { "id": "a22", "cityId": "c7",  "title": "La Barceloneta Beach",          "description": "Relax or play volleyball on the city's most popular urban beach.",           "cost": 0,   "duration": "3h",   "type": "Leisure"     },
+
+  { "id": "a23", "cityId": "c8",  "title": "Caldera Sunset Cruise",         "description": "Sail around the volcanic caldera and watch the legendary Santorini sunset.", "cost": 60,  "duration": "4h",   "type": "Leisure"     },
+  { "id": "a24", "cityId": "c8",  "title": "Oia Village Walk",              "description": "Wander through Oia's famous blue-domed churches and whitewashed streets.",   "cost": 0,   "duration": "2h",   "type": "Sightseeing" },
+
+  { "id": "a25", "cityId": "c9",  "title": "Arashiyama Bamboo Grove",       "description": "Walk through the ethereal towering bamboo groves at dawn.",                 "cost": 0,   "duration": "1.5h", "type": "Nature"      },
+  { "id": "a26", "cityId": "c9",  "title": "Fushimi Inari Shrine Hike",     "description": "Hike through thousands of vermilion torii gates on Mt. Inari.",             "cost": 0,   "duration": "3h",   "type": "Culture"     },
+
+  { "id": "a27", "cityId": "c10", "title": "Table Mountain Cable Car",      "description": "Ride up to the flat-topped mountain for panoramic views of Cape Town.",     "cost": 22,  "duration": "2h",   "type": "Adventure"   },
+  { "id": "a28", "cityId": "c10", "title": "Cape Point Day Trip",           "description": "Drive to the tip of the Cape Peninsula with stunning coastal scenery.",     "cost": 50,  "duration": "8h",   "type": "Nature"      },
+
+  { "id": "a29", "cityId": "c11", "title": "Snorkeling in Blue Lagoon",     "description": "Swim alongside colorful reef fish in a pristine private lagoon.",           "cost": 80,  "duration": "3h",   "type": "Adventure"   },
+  { "id": "a30", "cityId": "c11", "title": "Sunset Dolphin Cruise",         "description": "Sail out to spot wild spinner dolphins at dusk.",                          "cost": 120, "duration": "2h",   "type": "Leisure"     },
+
+  { "id": "a31", "cityId": "c12", "title": "Anne Frank House",              "description": "A moving tour of the hiding place of Anne Frank during WWII.",              "cost": 16,  "duration": "1.5h", "type": "History"     },
+  { "id": "a32", "cityId": "c12", "title": "Canal Bike Tour",               "description": "Pedal through the network of Amsterdam's world-famous canal ring.",         "cost": 25,  "duration": "2h",   "type": "Leisure"     }
+]
