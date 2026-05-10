@@ -204,6 +204,8 @@ Navigate to `http://localhost:5173`
    NODE_ENV = production
    PORT = 10000
    ```
+<img width="1132" height="896" alt="Screenshot 2026-05-10 142041" src="https://github.com/user-attachments/assets/27df000f-28d0-4b2f-a180-415213637fdb" />
+<img width="1052" height="868" alt="Screenshot 2026-05-10 141541" src="https://github.com/user-attachments/assets/1f8d5f87-ba12-493e-82f7-1f7e5eb849c4" />
 
 ### MongoDB Atlas Setup
 
