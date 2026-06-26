@@ -4,7 +4,7 @@ import { toast } from 'react-hot-toast';
 const api = axios.create({
   // BUG-03: use relative path so the Vite proxy handles it in dev,
   // and VITE_API_URL handles it in production (Vercel → Render).
-  baseURL: import.meta.env.VITE_API_URL || '/api/v1',
+  baseURL: import.meta.env.VITE_API_URL || 'https://traveloop-ai.onrender.com/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },
