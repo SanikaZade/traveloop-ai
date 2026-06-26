@@ -15,7 +15,7 @@ export default defineConfig({
     // This eliminates CORS issues in dev — requests appear same-origin to the browser
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://your-backend-name.onrender.com',
         changeOrigin: true,
       },
     },
