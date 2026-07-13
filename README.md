@@ -290,14 +290,4 @@ TravelLoop uses a custom **glassmorphism** design language:
 
 ---
 
-## 👩‍💻 Built for Odoo Hackathon 2026
-
-TravelLoop was built as a submission for the **Odoo Hackathon 2026**, demonstrating full-stack MERN application development with a focus on user experience, performance, and scalable architecture.
-
-**Team**: TravelLoop Team  
-**Category**: SaaS / Travel Planning  
-**Theme**: Real-world utility + Beautiful UX
-
----
-
 <p align="center">Made with ❤️ and lots of ✈️ dreams</p>
