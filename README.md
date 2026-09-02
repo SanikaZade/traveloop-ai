@@ -24,6 +24,8 @@
 
 ## ✨ Features
 
+Live project = https://traveloop-ai-mocha.vercel.app/login
+
 | Module | Description |
 |--------|-------------|
 | 🔐 **Authentication** | JWT-based signup/login with persistent sessions and protected routes |
